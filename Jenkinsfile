@@ -17,7 +17,7 @@ pipeline {
 
         stage('Docker') {
             steps {
-                'echo "Building image and pushing to Docker Hob..."'
+                sh 'echo "Building image and pushing to Docker Hob..."'
             }
         }
 
